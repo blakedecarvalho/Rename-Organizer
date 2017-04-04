@@ -3,7 +3,7 @@ irb
 require 'pathname'
 require 'fileutils'
 names = Dir.entries(".")
-i = 96
+i = 4
 begin
   while i < 98
     folder = "/Volumes/The Potion/JW/Poetry/#{names[i]}"
